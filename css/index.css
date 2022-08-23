@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color:white; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 15px ;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 17px;
+    /* margin-left: 200px;
+     */
+     margin-left: 50px;
+}
+nav .active-item{
+    color: orangered;
+    font-weight: bold;
+
+}
+.img1{
+    margin-left: -120px;
+    margin-top: 10px;
+    height: 40px;
+}
+nav .img2{
+    margin-right: -120px;
+    height: 40px;
+}
+.intro-section{
+    display: flex;
+    flex: 1;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+.circle{
+    height: 42px;
+}
+.left-section h1{
+    position: absolute;
+    top: 27%;
+    left: 20px;
+    font-size: 90px;
+    font-family: Fredoka One;
+    font-weight: 500;
+    z-index: 1;
+}
+.sub-headlines{
+    position: absolute;
+    top: 45%;
+}
+.sub-headline{
+    margin-left: 70px;
+
+    margin-top: 25px;
+    font-size: 20px;
+    
+}
+.plus{
+    margin-bottom: -3px;
+    border: none;
+    border-radius: 100%;
+    padding: 4px;
+    background-color: rgb(243, 87, 15);
+    margin-right: 20px;
+   
+}
+
+p{
+    position: absolute;
+    bottom: 120px;
+    left: 25px;
+    font-size: 18px;
+    color: rgb(105, 88, 88);
+}
+.action-btn{
+    
+    /* margin-top: 120px;
+     
+    /* margin-left: 15px;  */
+    width: 200px; 
+    height: 60px;
+    border-radius: 30px; 
+     background-color: rgb(244, 108, 49);   
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 18px; 
+}
+.b1{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.b2{
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+}
+.headphone-div .hp{
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+    width: 600px;
+    background-color: transparent;
+    height: 560px;
+}
+.star{
+    position: absolute;
+    z-index: 2;
+    top: 342px;
+    right: 520px;
+    height: 160px;
+    /* box-shadow: 10px 10px 5px wheat; */
+}
+/* .discount-content{
+    position: absolute;
+    z-index: 2;
+    bottom: 220px;
+    right: 490px;
+
+} */
+.discount-content{
+    color: aliceblue;
+}
+.discount-content h1{
+    font-family: Fredoka one;
+    font-weight:normal;
+    font-size: 55px;
+    position: absolute;
+    bottom: 278px;
+    z-index: 2;
+    right: 568px;
+    width: 80px;
+}
+.discount-content h4{
+    position: absolute;
+    z-index: 2;
+    bottom: 345px;
+    right: 37.5%;
+}
+.r1{
+    position: absolute;
+    bottom: 30px;
+    right: 15%;
+}
+.dots{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    right: 17.2%
+}
+.dot{
+    margin: 17px;
+}
+.yellow-dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: rgb(243, 243, 16);
+}
+.tomato-dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: tomato;
+}
+.black-dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: rgb(7, 7, 7);
+}
